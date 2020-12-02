@@ -17,7 +17,7 @@ a {
 }
 
 .card {
-    width: 620px;
+    width: 680px;
     height: 300px;
     background-color: var(--card-color);
     border-radius: 15px;
@@ -32,7 +32,7 @@ img {
 }
 
 .card-content {
-    width: 380px;
+    width: 440px;
     float: right;
 }
 
@@ -40,8 +40,8 @@ h2 {
     margin: 0px;
 }
 ul {
-    margin: 5px 0px 0px 0px;
-    padding: 0px 0px 0px 15px
+    margin: 5px 0px 0px 15px;
+    padding: 0;
 }
 
 .uhname {
@@ -49,7 +49,7 @@ ul {
 }
 
 .item {
-    padding-top: 10px;
+    margin-top: 10px;
 }
 
 .path {
@@ -57,10 +57,10 @@ ul {
 }
 
 svg {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     stroke: var(--main-important-color);
-    padding-right: 50px;
+    margin-left: 65px;
 }
 
 svg:hover {
