@@ -17,7 +17,7 @@ a {
 }
 
 .card {
-    width: 800px;
+    width: 620px;
     height: 300px;
     background-color: var(--card-color);
     border-radius: 15px;
@@ -32,54 +32,39 @@ img {
 }
 
 .card-content {
-    width: 560px;
+    width: 380px;
     float: right;
 }
 
-h1 {
-    margin: 5px 0px 5px 0px;
+h2 {
+    margin: 0px;
+}
+ul {
+    margin: 5px 0px 0px 0px;
+    padding: 0px 0px 0px 15px
 }
 
 .uhname {
     color: var(--main-important-color);
 }
 
+.item {
+    padding-top: 10px;
+}
+
 .path {
     color: var(--misc-color);
 }
 
-.output {
-    padding: 3px 0px 3px 0px;
-}
-
-.caret {
-    animation: blink-animation 1s steps(5, start) infinite;
-    -webkit-animation: blink-animation 1s steps(5, start) infinite;
-    border-right: solid 8px;
-    position: relative;
-    bottom: 3px;
-}
-
 svg {
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     stroke: var(--main-important-color);
-    padding-right: 10px;
+    padding-right: 50px;
 }
 
 svg:hover {
     cursor: pointer;
     stroke: var(--card-color);
     fill: var(--main-important-color);
-}
-
-@keyframes blink-animation {
-    to {
-        visibility: hidden;
-    }
-}
-@-webkit-keyframes blink-animation {
-    to {
-        visibility: hidden;
-    }
 }
