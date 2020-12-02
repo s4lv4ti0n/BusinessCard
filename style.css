@@ -12,6 +12,10 @@ body {
     font-family: "Lucida Console", Courier, monospace;
 }
 
+a {
+    color: var(--card-color);
+}
+
 .card {
     width: 800px;
     height: 300px;
