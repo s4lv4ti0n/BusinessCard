@@ -1,2 +1,2 @@
-# BusinessCard
-My Business Card
+# My contact card
+Static webpage
