@@ -46,10 +46,6 @@ ul {
     margin-top: 15px;
 }
 
-.path {
-    color: var(--misc-color);
-}
-
 svg {
     width: 45px;
     height: 45px;
