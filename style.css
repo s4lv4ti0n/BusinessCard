@@ -9,26 +9,23 @@ body {
     font-family: "Lucida Console", Courier, monospace;
     margin: 0;
 }
-
-.container-outer{
-    width: 100%;
-}
 .container {
     max-width: 430px;
     margin: auto;
 }
-.my-image {
-    width: 100%;
+.image-holder {
     position: relative;
     font-size: 0;
 }
-
-ul {
-    margin: 5px 0px 0px 15px;
-    padding: 0;
+.image-holder > img {
+    width: 100%;
 }
-h2 {
-    margin: 20px 0px 0px 0px;
+.info-holder {
+    margin: 20px;
+}
+h1 {
+    margin: 0;
+    font-size: 1.3em;
 }
 .uhname {
     color: var(--main-important-color);
@@ -37,15 +34,18 @@ h2 {
     margin-bottom: 5px;
 }
 .item {
-    padding-top: 20px;
+    margin-top: 20px;
+}
+ul {
+    margin: 5px 0px 0px 15px;
+    padding: 0;
 }
 .contact-buttons {
-    width: 200px;
-    margin:auto;
+    width: 50%;
     position: absolute;
     bottom: 0;
     right: 0;
-    padding: 0px 20px 5px 0px;
+    padding: 0 1% 1% 0;
     display: flex;
     justify-content: space-between;
 }
