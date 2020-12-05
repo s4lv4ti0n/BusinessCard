@@ -7,14 +7,20 @@ body {
     background-color: var(--bg);
     color: var(--main-font-color);
     font-family: "Lucida Console", Courier, monospace;
+    margin: 0;
 }
 
+.container-outer{
+    width: 100%;
+}
 .container {
     max-width: 430px;
     margin: auto;
 }
 .my-image {
     width: 100%;
+    position: relative;
+    font-size: 0;
 }
 
 ul {
@@ -36,12 +42,16 @@ h2 {
 .contact-buttons {
     width: 200px;
     margin:auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0px 20px 5px 0px;
     display: flex;
     justify-content: space-between;
 }
 svg {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     stroke: var(--main-important-color);
 }
 svg:hover {
