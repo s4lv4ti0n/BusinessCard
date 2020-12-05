@@ -12,47 +12,56 @@ body {
 }
 a {
     color: var(--card-color);
+    font-size: 0;
 }
-img, .card {
-    height: 300px;
-}
+
 .card {
-    width: 680px;
+    width: 500px;
+    height: 280px;
     background-color: var(--card-color);
     border-radius: 15px;
-    padding: 30px;
+    padding: 20px;
     margin: auto;
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
 }
+.card-image {
+    width: 130px;
+}
+.card-image img {
+    width: 100%;
+}
 .card-content {
-    width: 440px;
+    width: 350px;
     float: right;
 }
-
 h2 {
-    margin: 0px;
+    margin: 0px 0px 15px 0px;
 }
 ul {
     margin: 5px 0px 0px 15px;
     padding: 0;
 }
-
 .uhname {
     color: var(--main-important-color);
 }
-
-.item {
-    margin-top: 15px;
+.card-content-text {
+    margin-top: 10px;
 }
-
+.card-extra > div {
+    margin-top: 10px;
+}
+.card-extra-buttons {
+    margin:auto;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
 svg {
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     stroke: var(--main-important-color);
-    margin-left: 65px;
 }
-
 svg:hover {
     cursor: pointer;
     stroke: var(--card-color);
