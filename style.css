@@ -44,8 +44,7 @@ svg {
     height: 40px;
     stroke: var(--main-important-color);
 }
-svg:hover,
-svg:active {
+svg:hover {
     cursor: pointer;
     stroke: var(--bg);
     fill: var(--main-important-color);
