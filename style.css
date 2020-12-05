@@ -46,7 +46,7 @@ ul {
     color: var(--main-important-color);
 }
 .card-content-text {
-    margin-top: 10px;
+    margin-top: 5px;
 }
 .card-extra > div {
     margin-top: 10px;
