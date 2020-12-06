@@ -30,20 +30,22 @@ body {
 }
 .heading h1 {
     margin: 0px;
+    font-size: 1.4em;
 }
 h2 {
     margin-bottom: 10px;
     font-size: 1.4em;
 }
+p {
+    margin: 0;
+    margin: 10px 0px 0px 0px;
+}
 a {
     color: var(--main-important-color);
     text-decoration: none;
 }
-.whoami {
-    margin-bottom: 5px;
-}
 ul {
-    margin: 5px 0px 0px 15px;
+    margin: 0px 0px 0px 15px;
     padding: 0;
 }
 li {
