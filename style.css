@@ -11,36 +11,43 @@ body {
     font-size: 1em;
 }
 .container {
-    max-width: 430px;
+    max-width: 565px;
     min-width: 300px;
     margin: auto;
 }
-.image-holder {
+.image-container {
     position: relative;
     font-size: 0;
 }
-.image-holder > img {
+.image-container > img {
     width: 100%;
 }
-.info-holder {
-    margin: 20px 10px 10px 10px;
+.info-container {
+    margin: 0px 10px 20px 10px;
 }
-h1 {
-    margin: 0;
-    font-size: 1.3em;
+.heading {
+    margin: 20px 0px 20px 0px;
 }
-.uhname {
+.heading h1 {
+    margin: 0px;
+}
+h2 {
+    margin-bottom: 10px;
+    font-size: 1.4em;
+}
+a {
     color: var(--main-important-color);
+    text-decoration: none;
 }
 .whoami {
     margin-bottom: 5px;
 }
-.item {
-    margin-top: 10px;
-}
 ul {
     margin: 5px 0px 0px 15px;
     padding: 0;
+}
+li {
+    margin-top: 3px;
 }
 .contact-buttons {
     position: absolute;
@@ -61,7 +68,7 @@ svg:hover {
     stroke: var(--bg);
     fill: var(--main-important-color);
 }
-a {
+.link-icon {
     color: var(--bg);
     font-size: 0;
 }
