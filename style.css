@@ -74,3 +74,6 @@ svg:hover {
     color: var(--bg);
     font-size: 0;
 }
+.no-margin-bottom {
+    margin-bottom: 0px !important;
+}
