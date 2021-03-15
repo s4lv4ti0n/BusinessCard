@@ -40,7 +40,7 @@ p {
     margin: 0;
     margin: 10px 0px 0px 0px;
 }
-a, strong {
+a, strong, .strong {
     color: var(--main-important-color);
     text-decoration: none;
     font-weight: bold;
