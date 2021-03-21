@@ -81,10 +81,6 @@ svg:hover {
     stroke: var(--bg);
     fill: var(--main-important-color);
 }
-.link-icon {
-    color: var(--bg);
-    font-size: 0;
-}
 .no-margin-bottom {
     margin-bottom: 0px !important;
 }
