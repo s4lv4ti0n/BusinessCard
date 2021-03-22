@@ -1,7 +1,7 @@
 :root {
     --main-font-color: rgb(223, 223, 223);
     --main-important-color: orange;
-    --bg: black;
+    --bg: #181818;
     --bg-reducedopacity: rgba(0, 0, 0, 0.6);
 }
 body {
