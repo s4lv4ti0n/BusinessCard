@@ -24,15 +24,6 @@ body {
 .image-container > img {
     width: 100%;
 }
-.blogbanner {
-    position: absolute;
-    width: 100%;
-    background-color: var(--bg-reducedopacity);
-    font-size: 1.2em;
-    line-height: 50px;
-    text-align: center;
-    z-index: 1337;
-}
 .info-container {
     margin: 0px 10px 20px 10px;
 }
