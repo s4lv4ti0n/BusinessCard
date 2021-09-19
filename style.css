@@ -72,6 +72,3 @@ svg:hover {
     stroke: var(--bg);
     fill: var(--main-important-color);
 }
-.no-margin-bottom {
-    margin-bottom: 0px !important;
-}
